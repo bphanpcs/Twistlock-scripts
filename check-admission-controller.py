@@ -9,7 +9,7 @@ password = '<your-password>'
 
 # Kubernetes configuration
 namespace = 'default'  # Replace with the namespace where the webhook is deployed
-webhook_deployment_name = 'admission-webhook'  # Replace with the actual webhook deployment name
+webhook_deployment_name = 'tw-validating-webhook'  # Replace with the actual webhook deployment name if a different webhook name was used
 
 def login_to_console(url, username, password):
     login_url = f'{url}/api/v1/authenticate'
